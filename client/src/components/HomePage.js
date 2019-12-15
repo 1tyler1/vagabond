@@ -5,7 +5,9 @@ import Photos from '../photos/Atlanta.jpg'
 let sectionStyle = {
     width: "100%",
     height: "100vh",
-    backgroundImage: `url(${Photos})`
+    backgroundImage: `url(${Photos})
+    
+    `
   };
 
   let Header = {
