@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Photos from '../photos/Atlanta.jpg'
+import NavBar from "./NavBar";
 
 let sectionStyle = {
     width: "100%",
@@ -21,7 +22,7 @@ class HomePage extends Component {
     render() {
         return (
             <div style={sectionStyle}>
-       
+        <NavBar />
 <h1 style={Header}>Project Vagabond </h1>
         
        
