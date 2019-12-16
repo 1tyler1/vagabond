@@ -11,16 +11,16 @@ class NavBar extends Component {
 
 
       <nav style={nav}>
-       {/* <div className="nav-wrapper z-depth-4">
-        <ul id="nav-mobile" className="right hide-on-med-and-down"> */}
+       <div className="nav-wrapper z-depth-4">
+        <ul id="nav-mobile" className="right hide-on-med-and-down">
     <li> 
          <a href="/" className="brand-logo">Vagabond</a> </li> 
             <li><a href="/cities">Cities</a></li>
             <li><a href="/profile">Profile</a></li>
             <li><a href="/cities/1">Atlanta</a></li>
-        {/*  </ul> */}
+        </ul>
 
-       {/* </div> */}
+       </div>
       </nav>
 
 
